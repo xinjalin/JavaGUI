@@ -4,7 +4,7 @@ This application is the start of a two up game i am making for ICTPRG437 part 2
 In this application i will be using java GUI for the first time.
 
 current application function
-- coin object
+- Coin object
   - a coin can flip with 50% chance of of being HEADS or not.
 - GUI
   - has a button to flip 2 coins
