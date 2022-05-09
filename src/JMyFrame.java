@@ -26,11 +26,8 @@ public class JMyFrame extends JFrame{
         // puts menu bar to top of the screen
         getContentPane().add(BorderLayout.NORTH, mb);
 
-        // centers frame on screen
+        // centers frame on screen using .awt
         Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
         setLocation(dim.width/2-getSize().width/2, dim.height/2-getSize().height/2);
-
-        // sets frame to visible
-        setVisible(true);
     }
 }
