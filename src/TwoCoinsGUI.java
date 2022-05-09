@@ -7,7 +7,7 @@ public class TwoCoinsGUI {
         Coin coinOne = new Coin(), coinTwo = new Coin();
 
         JPanel coinPanel = new JPanel();
-        JLabel coinOneLabel = new JLabel(coinOne.toString()), coinTwoLabel =new JLabel(coinTwo.toString());
+        JLabel coinOneLabel = new JLabel(coinOne.toString()), coinTwoLabel = new JLabel(coinTwo.toString());
         coinPanel.add(coinOneLabel);
         coinPanel.add(coinTwoLabel);
 
